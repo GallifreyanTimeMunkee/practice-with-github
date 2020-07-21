@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    background-color: blueviolet;
+    display: flex;
+    text-align:center; 
+    margin: 1em;
+    height: 250px;
+    flex-direction: row;  
+    flex-wrap: wrap;
+    /* flex-flow: row-reverse wrap-reverse; Shorthand for flex-direction and flex-wrap
+     */
+     /* justify-content: space-around; */
+     /* align-items: auto; */
+
+     /* align-content: stretch; */
+}
+
+.myDiv1 {
+    /* width: 40%; */
+    /* height: 20%; */
+    background-color: pink; 
+    order: 0; /*order:0; is inital value*/
+    /* align-self: auto; */
+    /* flex-grow: 1;  */
+    flex-basis: 50%
+    
+}
+
+.myDiv2{
+    /* width: 40%; */
+    /* height: 20%; */
+    background-color: red;
+    color: white;
+    order: 0; 
+    /* align-self: flex-start; */
+    /* flex-grow: 0;  */
+    flex-shrink: 0;
+    flex-basis: 50%
+}
+
+.myDiv3 {
+    /* width: 40%; */
+    /* height: 30%; */
+    color: white; 
+    background-color: green;
+    /* align-self: center; */
+    /* flex-grow: 1;  */
+}
+
+.myDiv4{
+    /* width: 40%; */
+    /* height: 20%; */
+    background-color: black;
+    color: white;
+    /* align-self: flex-end; */
+    /* flex-grow: 1;  */
+}
